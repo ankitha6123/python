@@ -1,0 +1,37 @@
+import random
+p1=input("enter player1:")
+p2=input("enter player1:")
+Programiz PRO ❯
+main.py
+Output
+
+s1=10:
+s2=10:
+d1=random.radiant(1,10)
+d2=random.radiant(1,10)
+print("_____________player1__________")
+while(true):
+Programiz PRO ❯
+main.py
+Output
+
+    g1=int(input("enter your guess:"))
+    s1=s1-1
+    if g1==d1:
+        break
+print("______________player2________")
+    while(true):
+        g1=int(input("enter your guess:"))
+        s2=s2-1
+        if g2==d2:
+        break
+print("___________summary____")
+print("{}:{}".format(p1,s1))
+Programiz PRO ❯
+main.py
+Output
+
+ print("{}:{}".format(p2,s2))  
+Programiz PRO ❯
+main.py
+Output
