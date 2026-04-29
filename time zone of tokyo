@@ -1,0 +1,5 @@
+from datetime import date time
+import pytz
+a=pytz.timezone("Asia/Tokyo")
+b=datetime.now(a)
+print(b) 
