@@ -1,0 +1,27 @@
+maths=["jyo","niya","boo","shan","kick"]
+political=['raj','bala','mera','peter','ken']
+social=['ben','raj','mera']
+
+
+
+m=set(maths)
+p=set(political)
+s=set(social)
+
+
+
+#3 subjects
+one=list(m&p&s)
+print(one)
+
+#2 subjects
+a=(m&p)
+b=(p&s)
+c=(s&m)
+print(a)
+print(b)
+print(c)
+print(a|b|c)
+
+two=(a|b|c)-(m&p&s)
+print(list(two))
